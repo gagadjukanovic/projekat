@@ -18,7 +18,7 @@
 
 <body id="body_o_meni">
   <header>  
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-fixed-top">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
       <a href="index.html" class="navbar-brand">DRAGANA</a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -38,21 +38,159 @@
   </header>
 
   <main>
-      <div id="uvod">
-        <h4>O meni</h4>
-          <p id="uvodni_pasus">
-            Zdravo, ja sam Dragana! Rođena sam 11.12.1983. godine u Požarevcu, a poslednjih 16 godina živim u Beogradu.
-          </p>
-      </div>
+      <div class="container">
 
-      <div>
-        <img id="moja_fotografija" src="img/ja.png" alt="Moja fotografija">
-      </div>
-      
-      <div>
-        <h1></h1>
-      </div>
-    
+          <div class="row">
+
+            <div class="col col-lg-4 col-sm-12">
+                <img class="img-fluid img-thumbnail rounded-circle center" id="moja_fotografija" src="img/ja.png" alt="Moja fotografija">
+            </div>
+
+            <div class="col col-lg-8 col-sm-12 bg-secondary text-light">
+              <h2 class="display-4">O meni</h2>
+              <p>
+                Zdravo, ja sam Dragana! Rođena sam 11.12.1983. godine u Požarevcu, a poslednjih 16 godina živim u Beogradu.
+              </p>
+
+              <p>
+                Već 11 godina radim u oblasti nekretnina, od administracije i finansija, preko procena vrednosti, agenture, konsultantskih usluga i sl.
+              </p>
+
+              <p>
+                Uvek me je zanimao i IT sektor, zbog neiscrpnih mogućnosti za unapređenje svih sfera života, iz kog razloga sam se i prijavila za IT obuku koju trenutno pohađam.
+              </p>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col bg-info">
+
+              <h2 class="display-4">Obrazovanje</h2>
+
+                <table class="table text-light">
+                  <thead>
+                    <tr>
+                      <th>Obrazovna ustanova</th> 
+                      <th>Mesto</th>
+                      <th>Zvanje</th>
+                    </tr>
+                  </thead>
+
+                    <tr>
+                      <td>Osnovna škola</td> <td>Simićevo</td>
+                    </tr>
+
+                    <tr>
+                      <td>Ekonomsko-trgovinska škola</td> <td>Požarevac</td> <td>Ekonomski tehničar</td>
+                    </tr>
+
+                    <tr>
+                      <td>Filološki fakultet</td> <td>Beograd</td> <td>Apsolvent na grupi Engleski jezik i književnost</td>
+                    </tr>
+                 </table>
+
+            </div>
+
+            <div class="col bg-success">
+              <h2 class="display-4">Profesionalno usavršavanje</h2>
+
+              <ul class="list-group">
+                <li class="list-group-item bg-success text-light">Licencirani agent za nekretnine</li>
+                <li class="list-group-item bg-success text-light">Završen kurs za procenu vrednosti nekretnina i opreme kod Nacionalnog udruženja procenitelja Srbije</li>
+                <li class="list-group-item bg-success text-light">Kurs IT prekvalifikacija (HTML, CSS, JavaScript, MySQL, PHP) na Matematičkom fakultetu u Beogradu - u toku</li>             
+
+              </ul>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col col-lg-5 col-sm-12 bg-danger">
+                  <h2 class="display-4">Volim (ovim redosledom):</h2>
+                  <ol class="list-group" id="volim">
+                    <li class="list-group-item bg-danger text-light">Mog bratanca Mateju</li>
+                    <li class="list-group-item bg-danger text-light">Spasoja (vrli gospodin sa <a href="#moja_fotografija">fotografije</a>)</li>
+                    <li class="list-group-item bg-danger text-light">Šetnje po prirodi</li>
+                    <li class="list-group-item bg-danger text-light">Vrtenje obruča</li>
+                    <li class="list-group-item bg-danger text-light">Vožnju bajsa</li>
+                  </ol>
+                </div>
+
+                <div class="col col-lg-2 col-sm-offset">
+
+                </div>
+
+                <div class="col col-log-5 col-sm-12 bg-dark">
+                    <h2 class="display-4">Ne volim (ovim redosledom):</h2>
+                    <ol class="list-group">
+                      <li class="list-group-item bg-dark text-light">Većinu stvari koje se dešavaju u ovoj zemlji</li>
+                      <li class="list-group-item bg-dark text-light">Pogledaj pod 1.</li>
+                      <li class="list-group-item bg-dark text-light">Pogledaj pod 2.</li>
+                    </ol>
+                  </div>
+     
+            </div>
+            
+            <div class="row">
+
+              <div class="col col-12 bg-warning">
+
+                <h2 class="display-4">Moj dosadašnji napredak u IT sektoru</h2>
+                <p>
+                  ...mogao bi se opisati kao:
+                  <br>
+                  <img src="img/problems.png" alt="Problemi" center>
+                </p>
+               
+                <p>
+          
+                  Ali, hej! Nadam se da će stvari krenuti na bolje i da svetu neće biti uskraćena mogućnost da sarađuje sa jednim vrhunskim IT stručnjakom. :)
+
+                </p> 
+
+            </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+           
+           
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+                
+  
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+                <h2 id="h2_o_meni">O meni</h2>
+  
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+  
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+  
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+  
+              </div>
+              
+              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+  
+              </div>
+          </div>
+
+
+
+        <div class="row">
+          <div class="col-sm-2 col-md-1">
+              
+
+          </div>
 
 
 
@@ -60,7 +198,7 @@
   
   <footer class="page-footer">
         <div class="footer-copyright">
-            &copy; 2019 Dragana Djukanovic. All rights reserved.
+            &copy; 2019 Dragana Djukanovic. Sva prava zadržana.
         </div>
 </footer>
 
