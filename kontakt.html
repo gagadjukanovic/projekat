@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Kontakt</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="stil.css">
+    
+  
+  <style>
+
+  </style>
+</head>
+
+<body id="body_kontakt">
+  <header>  
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark navbar-fixed-top">
+      <a href="index.html" class="navbar-brand">DRAGANA</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="o_meni.html" class="nav-link" id="nav_o_meni">O meni</a></li>
+          <li class="nav-item">
+            <a href="projekti.html" class="nav-link" id="nav_projekti">Projekti</a></li>
+          <li class="nav-item">
+            <a href="kontakt.html" class="nav-link" id="nav_kontakt">Kontakt</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+  
+    <form action="">
+          
+              <div class="row">
+
+                  <div class="col">
+                        <div class="form-group">
+                            <label for="ime">Ime*:</label>
+                            <input type="text" name="ime" id="ime" class="form-control" placeholder="Unesite Vaše ime" required>
+                        </div>
+                  </div>
+             
+
+                 <div class="col">
+                        <div class="form-group">
+                            <label for="prezime">Prezime:</label>
+                            <input type="text" name="prezime" id="prezime" class="form-control" placeholder="Unesite Vaše prezime">
+                        </div>
+                 </div>
+            </div>      
+
+          <div class="form-group">
+            <label for="email">Email*:</label>
+            <input type="email" name="email" id="email" class="form-control" placeholder="Unesite Vaš email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="tema" required>Tema*:</label>
+              <select name="tema" id="tema" class="form-control" placeholder="Odaberite temu">
+                <option value="zahtev_za_ponudu">Zahtev za ponudu</option>
+                <option value="dodatne_informacije">Dodatne informacije</option>
+                <option value="pohvale">Pohvale, želje, čestitke i pozdravi :)</option>
+              </select>
+           </div>
+          
+          <div class="form-group">
+            <label for="poruka">Poruka:</label>
+            <textarea name="poruka" id="poruka" cols="30" rows="10" class="form-control" placeholder="Unesite Vašu poruku"></textarea>
+          </div>
+
+          <button type="button submit" class="btn btn-success">Pošalji</button>
+
+      </form>
+
+  </main>
+
+  <footer class="page-footer">
+        <div class="footer-copyright">
+            &copy; 2019 Dragana Djukanovic. All rights reserved.
+    </div>
+    </footer>
+ 
+</body>
+</html>
