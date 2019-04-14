@@ -11,9 +11,7 @@
   <link rel="stylesheet" href="stil.css">
     
   
-  <style>
 
-  </style>
 </head>
 
 <body id="body_kontakt">
@@ -41,33 +39,20 @@
   
     <form action="">
           
-              <div class="row">
-
-                  <div class="col">
-                        <div class="form-group">
-                            <label for="ime">Ime*:</label>
-                            <input type="text" name="ime" id="ime" class="form-control" placeholder="Unesite Vaše ime" required>
-                        </div>
-                  </div>
-             
-
-                 <div class="col">
-                        <div class="form-group">
-                            <label for="prezime">Prezime:</label>
-                            <input type="text" name="prezime" id="prezime" class="form-control" placeholder="Unesite Vaše prezime">
-                        </div>
-                 </div>
-            </div>      
+          <div class="form-group">
+              <label for="ime">Ime*:</label>
+              <input type="text" name="ime" id="ime" class="form-control" placeholder="Unesi ime" required>
+          </div>
 
           <div class="form-group">
             <label for="email">Email*:</label>
-            <input type="email" name="email" id="email" class="form-control" placeholder="Unesite Vaš email" required>
+            <input type="email" name="email" id="email" class="form-control" placeholder="petar.petrovic@gmail.com" required>
           </div>
 
           <div class="form-group">
             <label for="tema" required>Tema*:</label>
-              <select name="tema" id="tema" class="form-control" placeholder="Odaberite temu">
-                <option value="zahtev_za_ponudu">Zahtev za ponudu</option>
+              <select name="tema" id="tema" class="form-control">
+                <option value="poslovna_saradnja">Poslovna saradnja</option>
                 <option value="dodatne_informacije">Dodatne informacije</option>
                 <option value="pohvale">Pohvale, želje, čestitke i pozdravi :)</option>
               </select>
@@ -75,7 +60,7 @@
           
           <div class="form-group">
             <label for="poruka">Poruka:</label>
-            <textarea name="poruka" id="poruka" cols="30" rows="10" class="form-control" placeholder="Unesite Vašu poruku"></textarea>
+            <textarea name="poruka" id="poruka" cols="30" rows="10" class="form-control" placeholder="Unesi poruku"></textarea>
           </div>
 
           <button type="button submit" class="btn btn-success">Pošalji</button>

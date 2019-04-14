@@ -11,9 +11,7 @@
   <link rel="stylesheet" href="stil.css">
     
   
-  <style>
 
-  </style>
 </head>
 
 <body id="body_o_meni">
@@ -42,11 +40,14 @@
 
           <div class="row">
 
-            <div class="col col-lg-4 col-sm-12">
-                <img class="img-fluid img-thumbnail rounded-circle center" id="moja_fotografija" src="img/ja.png" alt="Moja fotografija">
+            <div class="col">
+              <div class="text-center">
+                  <img class="img-fluid img-thumbnail rounded-circle center" id="moja_fotografija" src="img/ja.png" alt="Moja fotografija">
+              </div>
+                
             </div>
 
-            <div class="col col-lg-8 col-sm-12 bg-secondary text-light">
+            <div class="col bg-secondary text-light">
               <h2 class="display-4">O meni</h2>
               <p>
                 Zdravo, ja sam Dragana! Rođena sam 11.12.1983. godine u Požarevcu, a poslednjih 16 godina živim u Beogradu.
@@ -69,7 +70,7 @@
 
               <h2 class="display-4">Obrazovanje</h2>
 
-                <table class="table text-light">
+                <table class="table table-dark text-light">
                   <thead>
                     <tr>
                       <th>Obrazovna ustanova</th> 
@@ -96,10 +97,10 @@
             <div class="col bg-success">
               <h2 class="display-4">Profesionalno usavršavanje</h2>
 
-              <ul class="list-group">
-                <li class="list-group-item bg-success text-light">Licencirani agent za nekretnine</li>
-                <li class="list-group-item bg-success text-light">Završen kurs za procenu vrednosti nekretnina i opreme kod Nacionalnog udruženja procenitelja Srbije</li>
-                <li class="list-group-item bg-success text-light">Kurs IT prekvalifikacija (HTML, CSS, JavaScript, MySQL, PHP) na Matematičkom fakultetu u Beogradu - u toku</li>             
+              <ul class="list">
+                <li class="list-item text-light">Licencirani agent za nekretnine</li>
+                <li class="list-item text-light">Završen kurs za procenu vrednosti nekretnina i opreme kod Nacionalnog udruženja procenitelja Srbije</li>
+                <li class="list-item text-light">Kurs IT prekvalifikacija (HTML, CSS, JavaScript, MySQL, PHP) na Matematičkom fakultetu u Beogradu - u toku</li>             
 
               </ul>
 
@@ -107,41 +108,65 @@
 
             <div class="row">
 
-                <div class="col col-lg-5 col-sm-12 bg-danger">
+                <div class="col bg-danger">
                   <h2 class="display-4">Volim (ovim redosledom):</h2>
-                  <ol class="list-group" id="volim">
-                    <li class="list-group-item bg-danger text-light">Mog bratanca Mateju</li>
-                    <li class="list-group-item bg-danger text-light">Spasoja (vrli gospodin sa <a href="#moja_fotografija">fotografije</a>)</li>
-                    <li class="list-group-item bg-danger text-light">Šetnje po prirodi</li>
-                    <li class="list-group-item bg-danger text-light">Vrtenje obruča</li>
-                    <li class="list-group-item bg-danger text-light">Vožnju bajsa</li>
+                  <ol class="list" id="volim">
+                    <li class="list-item text-light">Mog bratanca Mateju</li>
+                    <li class="list-item text-light">Spasoja (vrli gospodin sa <a id="link_spasoje" href="#moja_fotografija">fotografije</a>)</li>
+                    <li class="list-item text-light">Muziku</li>
+                    <li class="list-item text-light">Pešačenje</li>
+                    <li class="list-item text-light">Vrtenje obruča</li>
                   </ol>
                 </div>
 
-                <div class="col col-lg-2 col-sm-offset">
-
-                </div>
-
-                <div class="col col-log-5 col-sm-12 bg-dark">
+                <div class="col bg-dark">
                     <h2 class="display-4">Ne volim (ovim redosledom):</h2>
-                    <ol class="list-group">
-                      <li class="list-group-item bg-dark text-light">Većinu stvari koje se dešavaju u ovoj zemlji</li>
-                      <li class="list-group-item bg-dark text-light">Pogledaj pod 1.</li>
-                      <li class="list-group-item bg-dark text-light">Pogledaj pod 2.</li>
+                    <ol class="list">
+                      <li class="list-item bg-dark text-light">Većinu stvari koje se dešavaju u ovoj zemlji</li>
+                      <li class="list-item bg-dark text-light">Pogledaj pod 1.</li>
+                      <li class="list-item bg-dark text-light">Pogledaj pod 2.</li>
                     </ol>
                   </div>
      
             </div>
+
+            <div class="row">
+              <div class="col bg-light">
+
+                  <h2 class="display-4">Pesma koja me oraspoloži</h2>
+
+                  <div class="embed-responsive embed-responsive-21by9">
+
+                      <iframe class="embed-responsive-item" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/4367652&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true" frameborder="0"></iframe>
+    
+                  </div>
+
+              </div>
+
+
             
             <div class="row">
 
-              <div class="col col-12 bg-warning">
+              <div class="col bg-warning">
 
                 <h2 class="display-4">Moj dosadašnji napredak u IT sektoru</h2>
+                
                 <p>
-                  ...mogao bi se opisati kao:
+                  ...počelo je kao:
                   <br>
-                  <img src="img/problems.png" alt="Problemi" center>
+                  <div class="text-center">
+                      <img class="img-fluid" src="img/hello_world.jpeg" alt="Hello World">
+                  </div>
+                  
+                </p>
+
+                <p>
+                  ...a trenutno je:
+                  <br>
+                  <div class="text-center">
+                      <img class="img-fluid" src="img/problems.png" alt="Problemi" center>
+                  </div>
+                  
                 </p>
                
                 <p>
@@ -158,42 +183,6 @@
 
           </div>
 
-
-           
-           
-              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
-                
-  
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
-                <h2 id="h2_o_meni">O meni</h2>
-  
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
-  
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
-  
-              </div>
-              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
-  
-              </div>
-              
-              <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
-  
-              </div>
-          </div>
-
-
-
-        <div class="row">
-          <div class="col-sm-2 col-md-1">
-              
-
-          </div>
-
-
-
   </main>
   
   <footer class="page-footer">
@@ -201,14 +190,6 @@
             &copy; 2019 Dragana Djukanovic. Sva prava zadržana.
         </div>
 </footer>
-
-
-
-
-
-
-
-
 
 
 </body>
